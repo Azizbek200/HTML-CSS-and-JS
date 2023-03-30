@@ -5,14 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First web page</title>
+
+    <style type="text/css">
+       body{
+            background-color: lightgreen;
+            background-image: url(https://th.bing.com/th/id/R.508b10be7ff59d124e0c04f63dfe25a3?rik=cOfZwlBNocrCLA&riu=http%3a%2f%2fwww.topkool.com%2ffr%2fwp-content%2fuploads%2f2012%2f05%2ffriends-001.jpg&ehk=OKjk0XZ9UGn25WjGxQHEXwU0rEodmdGS0fKG2F9FjKQ%3d&risl=&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            background-position: 50px, 500px;
+       }
+       p{
+        background-color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-size: 25px;
+        font-weight: 200;
+       }
+       a:link{
+        color: red;
+       }
+       a:hover{
+        color: green;
+       }
+       a:active{
+        color:yellow;
+       }
+       h2{
+        border-style: solid;
+        border-width: 10px;
+        border-left-color: green;
+        border-bottom-color: blue;
+        padding: 25px;
+       }
+    </style>
+
 </head>
 <body>
-    <h2><i>Friends</i></h2>
+    <h1><i>Friends</i></h1>
     <hr>
     <img src="https://th.bing.com/th/id/R.a3de0907510d1db071da5fd14015c57e?rik=xLR4sROU1ZSuJA&riu=http%3a%2f%2fwww.allthetests.com%2fquiz33%2fpicture%2fpic_1451698302_1.jpg&ehk=oaeCHXBmrk8gDsAuMgJLNLKYhT1ikJvRCw0syAHcfQg%3d&risl=&pid=ImgRaw&r=0" alt="Friends image" style="width: 500px; height: 250px">
 
     <p><a href="https://en.wikipedia.org/wiki/Friends"> more info check out this link</a></p>
-    <table border="1" cellpadding="5" cellspacing="5">
+    <table border="1" cellpadding="5" cellspacing="5" width="500px">
+        <caption>cast of friends</caption>
         <tr>
             <th rowspan="5">Cast</th>
         </tr>
@@ -36,5 +70,7 @@
             <td>Mukhammadjonov</td>
         </tr>
     </table>
+    <p>some text</p>
+    <h2>Box model</h2>
 </body>
 </html>
